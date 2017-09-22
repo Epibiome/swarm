@@ -1,0 +1,4 @@
+src/*.o
+src/cityhash/*.o
+bin/swarm
+src/swarm
