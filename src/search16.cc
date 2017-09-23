@@ -463,7 +463,8 @@ unsigned long backtrack16(char * qseq,
   unsigned long matches = 0;
   char op = 0;
 
-#undef SHOWALIGNMENT
+//#undef SHOWALIGNMENT
+#define SHOWALIGNMENT 1
 #ifdef SHOWALIGNMENT
   printf("alignment, reversed: ");
 #endif
